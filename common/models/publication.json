@@ -1,0 +1,44 @@
+{
+  "name": "publication",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "platform": {
+      "type": "string",
+      "required": true
+    },
+    "gameTitle": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "movieLength": {
+      "type": "number",
+      "required": true
+    },
+    "rating": {
+      "type": "number"
+    },
+    "youtubeLink": {
+      "type": "string"
+    },
+    "archiveLink": {
+      "type": "string"
+    },
+    "screenshot": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

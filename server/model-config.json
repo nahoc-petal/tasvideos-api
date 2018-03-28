@@ -38,5 +38,9 @@
   "submission": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "publication": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
