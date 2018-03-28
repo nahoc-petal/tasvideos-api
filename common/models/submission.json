@@ -1,0 +1,45 @@
+{
+  "name": "submission",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "gameVersion": {
+      "type": "string"
+    },
+    "gameName": {
+      "type": "string",
+      "required": true
+    },
+    "branchName": {
+      "type": "string"
+    },
+    "romFileName": {
+      "type": "string"
+    },
+    "emulatorName": {
+      "type": "string"
+    },
+    "playerNickname": {
+      "type": "string"
+    },
+    "playerRealName": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "movieFile": {
+      "type": "any"
+    },
+    "extraEditPrivilege": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
